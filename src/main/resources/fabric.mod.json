@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anchor-rtp-bot",
+  "version": "${version}",
+  "name": "Anchor RTP Bot",
+  "description": "Client-side automation for finding and mining respawn anchors between RTPs.",
+  "authors": ["AnchorBot"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.anchorbot.AnchorRtpBotClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
